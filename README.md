@@ -13,7 +13,7 @@ Este repositorio contiene todos los Procedimientos Operativos Estándar (SOP) e 
 ```
 
 ## Plantillas de Documentos
-Las plantillas estándar para SOP e IT están disponibles en la carpeta `Plantillas`. Úselas al crear nueva documentación para mantener la consistencia.
+Las plantillas estándar para SOP e IT están disponibles en la carpeta [Templates](Templates). Úselas al crear nueva documentación para mantener la consistencia.
 
 ## Diferencia entre Procedimientos Operativos Estándar (SOP) e Instrucciones de Trabajo (WI)
 Las instrucciones de trabajo y los procedimientos operativos estándar son cruciales para la gestión operativa. Las instrucciones de trabajo detallarán cada secuencia de tareas si se considera que el procedimiento operativo estándar involucra varias tareas en un orden establecido. Estos recursos abordan tres preguntas: quién, qué y cómo.
