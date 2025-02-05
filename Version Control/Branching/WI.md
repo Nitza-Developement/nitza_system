@@ -135,4 +135,4 @@ fix(account/model): ci validation in User Model
 
 ### Ejemplo de un flujo de ramas
 
-![ejmplo_de_ramas](image2.PNG)
+![ejmplo_de_ramas](image2.png)
