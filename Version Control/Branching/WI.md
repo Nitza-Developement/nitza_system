@@ -83,7 +83,7 @@ tipo(scope): breve descripción
 
 ```
 
-![ejmplo_de_commit](image.png)
+![ejmplo_de_commit](img/image.png)
 
 
 Para mantener un sistema coherente, necesitamos establecer convenciones claras para cada elemento:
@@ -137,4 +137,4 @@ fix(account/model): ci validation in User Model
 
 ### Ejemplo de un flujo de ramas
 
-![ejmplo_de_ramas](image2.png)
+![ejmplo_de_ramas](img/image2.png)
