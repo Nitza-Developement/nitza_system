@@ -10,11 +10,12 @@
 ## **Puntos claves a tener**
 ##### **1. Conocimiento de Github y uso de Git.**
    
-##### **2. Conocimiento de GitHub Flow.  ( opcional )**
- https://www.conventionalcommits.org/en/v1.0.0/
+##### **2. Conocimiento de [GitHub Flow](https://medium.com/@yanminthwin/understanding-github-flow-and-git-flow-957bc6e12220).  ( opcional )**
+ 
    
-##### **3. Conventional commits. ( opcional ).**
-https://medium.com/@yanminthwin/understanding-github-flow-and-git-flow-957bc6e12220
+##### **3. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). ( opcional ).**
+
+
 
 ## **GITHUB**
 GitHub es una plataforma en línea que funciona como un repositorio centralizado para almacenar y gestionar código fuente de programas y aplicaciones . Es la plataforma más importante del mundo para el desarrollo colaborativo de software y está diseñada específicamente para alojar proyectos utilizando el sistema de control de versiones Git.
