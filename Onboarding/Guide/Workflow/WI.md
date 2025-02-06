@@ -3,42 +3,12 @@
 ## **4- Flujo de Trabajo**
 
 ##### **4.1 Gestión de Tareas.**
-*  Cada proyecto tiene un responsable designado
-*  Las tareas son asignadas por el responsable del proyecto
-*  El seguimiento se realiza a través de [Odoo](https://www.odoo.com/)
+1. Flujo de trabajo
 
-##### **4.1 Crear y Configurar la Rama.**
-Utilizamos [Github Flow](https://docs.github.com/en/get-started/using-github/github-flow)
-
-Asegurarse de estar en la rama principal actualizada:
-```
-git checkout main
-git pull origin main
-```
-
-1. Crear una nueva rama para la tarea:
-
-```
-git checkout -b feature/nombre-descriptivo-tarea
-```
-
-##### **4.3 Desarrollo y Commits.**
-1. Realizar cambios en el código
-2. Preparar archivos modificados:
-
-```
-git add .
-```
-3. Crear commit con mensaje descriptivo:
-
-```
-git commit -m "descripción clara del cambio realizado"
-```
-
-![Commit](img/image.png)
+Para mas informacion vicitar el documento [Flujo de trabajo](/Version%20Control/Branching/WI.md)
 
 
-4. Registrar el tiempo en Odoo:
+2. Registrar el tiempo en Odoo:
     * Crear una entrada en el parte de tiempos
 
     ![alt text](img/image2.png)
@@ -50,7 +20,7 @@ git commit -m "descripción clara del cambio realizado"
 
     ![alt text](img/image3.png)
 
-##### **4.4 Gestión del Pull Request.**
+##### **4.2 Gestión del Pull Request.**
 **Caso A: Código Listo para Revisión**
 1. Preparar archivos modificados:
 
@@ -74,7 +44,7 @@ git push origin feature/nombre-descriptivo-tarea
     * Detallar las partes que necesitan revisión
 
 
-##### **4.5 Proceso de Revisión**
+##### **4.3 Proceso de Revisión**
 1. Atender los comentarios de la revisión
 2. Para cada cambio solicitado:
     * Realizar las modificaciones necesarias
@@ -86,14 +56,14 @@ git push origin feature/nombre-descriptivo-tarea
 git push origin feature/nombre-descriptivo-tarea
 ```
 
-##### **4.6 Finalización**
+##### **4.4 Finalización**
 1. Una vez aprobado el PR:
     * Asegurarse de que la rama está actualizada con main
     * Resolver conflictos si existen
     * Realizar merge siguiendo la política del  equipo
        
 
-##### **4.7 Control de Calidad**
+##### **4.5 Control de Calidad**
 1. Una vez aprobado el PR:
     * Todo el código debe pasar por revisión antes de ser integrado
     * Los Pull Requests son revisados por desarrolladores designados
@@ -102,7 +72,7 @@ git push origin feature/nombre-descriptivo-tarea
         * [Prettier](https://prettier.io/) para código frontend
 
 
-##### **4.8 Reuniones.**
+##### **4.6 Reuniones.**
 * Dos reuniones semanales por [Google Meet](https://meet.google.com/)
 * Participación en llamadas con clientes por [Teams](https://www.microsoft.com/es-es/microsoft-teams/group-chat-software) cuando sea necesario
 
