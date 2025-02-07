@@ -42,11 +42,13 @@
 2. Agrega comentarios:
    - Hover sobre la línea > ícono `+`
    - Para múltiples líneas: selecciona > clic derecho > "Add Comment"
+![Captura de pantalla (311)](https://github.com/user-attachments/assets/df415d27-eb27-4d2f-b67f-9cfbfd169c21)
 
 ## 5. Acciones finales
 1. Aprobar:
    - "Add Review" > "Approve"
    - Confirma que probaste los cambios localmente
+![5](https://github.com/user-attachments/assets/a99c15bb-aa97-4a0c-b8df-f5db49f0d472)
 
 2. Solicitar cambios:
    - "Add Review" > "Request Changes"
@@ -55,7 +57,10 @@
 
 ## 6. Limpieza
 1. Al aprpobar cambios elimina la rama del "Pull Request"
+   ![8](https://github.com/user-attachments/assets/de1f014a-51da-4f0a-991b-4ad7ce14bd0d)
+
 2. Asegúrate de volver a tener la rama **dev** actualizada
+![9](https://github.com/user-attachments/assets/0b0773dd-5188-4d0b-b270-e79eb777a8c4)
 
 ## Mejores prácticas
 - No apruebes sin probar localmente
