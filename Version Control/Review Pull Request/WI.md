@@ -17,8 +17,6 @@
 1. En VSCode, ve a la sección GitHub Pull Requests
 2. Haz clic derecho en el PR > "Checkout Pull Request"
 3. Verifica que los cambios se descargaron:
-![2](https://github.com/user-attachments/assets/399b8613-70e0-4632-8c73-9ed82bb0f697)
-
 
 ## 3. Verificación independiente
 1. Sigue los pasos de prueba documentados
@@ -30,8 +28,6 @@
    - Ejecuta pruebas unitarias
    - Prueba casos límite
    - Verifica integración con otros componentes
-     ![3](https://github.com/user-attachments/assets/71236c89-293e-4771-9004-60f6f322d7e6)
-
 
 ## 4. Revisión de código
 1. En la vista "Changes":
@@ -42,13 +38,12 @@
 2. Agrega comentarios:
    - Hover sobre la línea > ícono `+`
    - Para múltiples líneas: selecciona > clic derecho > "Add Comment"
-![Captura de pantalla (311)](https://github.com/user-attachments/assets/df415d27-eb27-4d2f-b67f-9cfbfd169c21)
 
 ## 5. Acciones finales
 1. Aprobar:
    - "Add Review" > "Approve"
    - Confirma que probaste los cambios localmente
-![5](https://github.com/user-attachments/assets/a99c15bb-aa97-4a0c-b8df-f5db49f0d472)
+
 
 2. Solicitar cambios:
    - "Add Review" > "Request Changes"
@@ -57,10 +52,8 @@
 
 ## 6. Limpieza
 1. Al aprpobar cambios elimina la rama del "Pull Request"
-   ![8](https://github.com/user-attachments/assets/de1f014a-51da-4f0a-991b-4ad7ce14bd0d)
-
 2. Asegúrate de volver a tener la rama **dev** actualizada
-![9](https://github.com/user-attachments/assets/0b0773dd-5188-4d0b-b270-e79eb777a8c4)
+
 
 ## Mejores prácticas
 - No apruebes sin probar localmente
