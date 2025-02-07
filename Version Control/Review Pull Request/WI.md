@@ -17,6 +17,7 @@
 1. En VSCode, ve a la sección GitHub Pull Requests
 2. Haz clic derecho en el PR > "Checkout Pull Request"
 3. Verifica que los cambios se descargaron:
+![2](https://github.com/user-attachments/assets/399b8613-70e0-4632-8c73-9ed82bb0f697)
 
 
 ## 3. Verificación independiente
@@ -29,12 +30,15 @@
    - Ejecuta pruebas unitarias
    - Prueba casos límite
    - Verifica integración con otros componentes
+     ![3](https://github.com/user-attachments/assets/71236c89-293e-4771-9004-60f6f322d7e6)
+
 
 ## 4. Revisión de código
 1. En la vista "Changes":
    - Revisa la calidad del código
    - Verifica convenciones del proyecto
    - Busca problemas de seguridad
+     
 2. Agrega comentarios:
    - Hover sobre la línea > ícono `+`
    - Para múltiples líneas: selecciona > clic derecho > "Add Comment"
