@@ -16,10 +16,18 @@
 ## 2. Checkout y prueba local
 1. En VSCode, ve a la sección GitHub Pull Requests
 2. Haz clic derecho en el PR > "Checkout Pull Request"
+
+
    ![1](https://github.com/user-attachments/assets/2428a9ea-7895-4597-85a5-22cce89b12f3)
 
+
+
 3. Verifica que los cambios se descargaron:
+
+   
 ![2](https://github.com/user-attachments/assets/eb00a8ce-e378-4066-8cd4-b0154a67d92b)
+
+
 
 ## 3. Verificación independiente
 1. Sigue los pasos de prueba documentados
@@ -37,11 +45,17 @@
    - Revisa la calidad del código
    - Verifica convenciones del proyecto
    - Busca problemas de seguridad
+  
+     
      ![3](https://github.com/user-attachments/assets/b1da2f27-b7e1-4643-a8df-350bcb6090f7)
+
+     
 
 2. Agrega comentarios:
    - Hover sobre la línea > ícono `+`
-   - ![Captura de pantalla (311)](https://github.com/user-attachments/assets/877f6224-21b3-4380-b321-48bffcdf00d4)
+  
+     
+     ![Captura de pantalla (311)](https://github.com/user-attachments/assets/877f6224-21b3-4380-b321-48bffcdf00d4)
 
    - Para múltiples líneas: selecciona > clic derecho > "Add Comment"
 
