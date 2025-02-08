@@ -58,9 +58,11 @@
 
 ## 6. Limpieza
 1. Al aprpobar cambios elimina la rama del "Pull Request"
+
    ![7](https://github.com/user-attachments/assets/3aa53358-d3d3-4b4f-a77d-e52f40d91b68)
 
 2. Asegúrate de volver a tener la rama **dev** actualizada
+
 ![8](https://github.com/user-attachments/assets/d58ba054-6acc-4adb-882d-1724150741b7)
 
 
