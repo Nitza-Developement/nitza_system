@@ -9,10 +9,4 @@ Si tienes dudas o necesitas ayuda:
 * Contacta al responsable de tu proyecto
 * Para temas administrativos, comunícate con el área de recursos humanos
 
- 
-
-## ← [Anterior capítulo](../Best_Practices/WI.md) 
-
-
-## → [Siguiente capítulo](../Payment_Process/WI.md)
-
+← [Anterior](../05-Best_Practices/WI.md) | [Siguiente](../07-Payment_Process/WI.md) →

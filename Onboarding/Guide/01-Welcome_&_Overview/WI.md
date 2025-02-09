@@ -17,5 +17,5 @@ Somos un equipo dinámico de desarrollo de software, conformado por 10-20 desarr
    
 
 
-## → [Siguiente capítulo](../Tools_&_Access/WI.md)
+[Siguiente](../02-Tools_&_Access/WI.md) →
 

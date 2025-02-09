@@ -26,8 +26,7 @@ El proceso de pago se realiza mensualmente para compensar a los desarrolladores 
 #### **7.5 Plazo de Pago**
 Todos los pagos se completan dentro de los primeros 10 días del mes en curso, correspondientes al trabajo del mes anterior.
 
-
-## ← [Anterior capítulo](../Support_&_Help/WI.md) 
+← [Anterior](../06-Support_&_Help/WI.md) 
 
 ---
 Este documento se actualiza regularmente. Asegúrate de consultarlo periódicamente para mantenerte al día con los cambios y mejoras en nuestros procesos.

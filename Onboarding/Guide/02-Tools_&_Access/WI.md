@@ -31,9 +31,4 @@ Al unirte al equipo, recibirás por [WhatsApp](https://www.whatsapp.com/) los en
     * La configuración se proporcionará cuando sea necesario
 
 
-
-## ← [Anterior capítulo](../Welcome_&_Overview/WI.md) 
-
-
-## → [Siguiente capítulo](../Tech_Stack/WI.md)
-
+← [Anterior](../01-Welcome_&_Overview/WI.md) | [Siguiente](../03-Tech_Stack/WI.md) →

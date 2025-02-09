@@ -27,9 +27,4 @@
 * No compartir accesos a repositorios o servidores
 * Reportar inmediatamente cualquier incidente de seguridad
  
-
-## ← [Anterior capítulo](../WorkFlow/WI.md) 
-
-
-## → [Siguiente capítulo](../Support_&_Help/WI.md)
-
+← [Anterior](../04-WorkFlow/WI.md) | [Siguiente](../06-Support_&_Help/WI.md) →

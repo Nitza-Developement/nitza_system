@@ -76,11 +76,4 @@ git push origin feature/nombre-descriptivo-tarea
 * Dos reuniones semanales por [Google Meet](https://meet.google.com/)
 * Participación en llamadas con clientes por [Teams](https://www.microsoft.com/es-es/microsoft-teams/group-chat-software) cuando sea necesario
 
-
-
-
-## ← [Anterior capítulo](../Tech_Stack/WI.md) 
-
-
-## → [Siguiente capítulo](../Best_Practices/WI.md)
-
+← [Anterior](../03-Tech_Stack/WI.md) | [Siguiente](../05-Best_Practices/WI.md) →

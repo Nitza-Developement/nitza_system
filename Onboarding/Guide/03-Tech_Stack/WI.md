@@ -19,8 +19,4 @@
     * [Docker](https://www.docker.com/)
     * [Docker Compose](https://docs.docker.com/compose/) (usado en todos los proyectos para despliegue)
 
-## ← [Anterior capítulo](../Tools_&_Access/WI.md) 
-
-
-## → [Siguiente capítulo](../Workflow/WI.md)
-
+← [Anterior](../02-Tools_&_Access/WI.md) | [Siguiente](../04-Workflow/WI.md) →
