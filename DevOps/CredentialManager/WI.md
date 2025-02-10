@@ -1,87 +1,87 @@
-# Git Credential Manager Installation Guide
-**Platform**: Ubuntu
-**Storage Method**: Plain Text
-**Last Updated**: February 10, 2025
+# Guía de Instalación de Git Credential Manager
+**Plataforma**: Ubuntu
+**Método de Almacenamiento**: Texto Plano
+**Última Actualización**: 10 de febrero de 2025
 
-## Prerequisites
-- Ubuntu 20.04 or later
-- Git installed
-- Administrator privileges
+## Requisitos Previos
+- Ubuntu 20.04 o posterior
+- Git instalado
+- Privilegios de administrador
 
-## Installation Steps
+## Pasos de Instalación
 
-### 1. Install Required Dependencies
-First, ensure all required dependencies are installed:
+### 1. Instalar Dependencias Requeridas
+Primero, asegúrese de que todas las dependencias requeridas estén instaladas:
 ```bash
 sudo apt-get update
 sudo apt-get install -y curl libsecret-1-0 dotnet-runtime-6.0
 ```
 
-### 2. Download Git Credential Manager
-Download the latest version of Git Credential Manager:
+### 2. Descargar Git Credential Manager
+Descargue la última versión de Git Credential Manager:
 ```bash
 curl -LO "https://github.com/GitCredentialManager/git-credential-manager/releases/latest/download/gcm-linux_amd64.deb"
 ```
 
-### 3. Install the Package
-Install the downloaded package:
+### 3. Instalar el Paquete
+Instale el paquete descargado:
 ```bash
 sudo dpkg -i gcm-linux_amd64.deb
 ```
 
-### 4. Configure Git to Use Plain Text Storage
-Set up Git to use plain text storage for credentials:
+### 4. Configurar Git para Usar Almacenamiento en Texto Plano
+Configure Git para usar almacenamiento en texto plano para las credenciales:
 ```bash
 git config --global credential.credentialStore plaintext
 ```
 
-### 5. Configure Git Credential Manager
-Initialize Git Credential Manager:
+### 5. Configurar Git Credential Manager
+Inicialice Git Credential Manager:
 ```bash
 git-credential-manager configure
 ```
 
-### 6. Verify Installation
-Verify that Git Credential Manager is installed correctly:
+### 6. Verificar la Instalación
+Verifique que Git Credential Manager esté instalado correctamente:
 ```bash
 git-credential-manager --version
 ```
 
-## Configuration Testing
+## Pruebas de Configuración
 
-1. Try cloning a repository that requires authentication:
+1. Intente clonar un repositorio que requiera autenticación:
 ```bash
 git clone https://github.com/username/repository.git
 ```
 
-2. Enter your credentials when prompted
-3. Verify that the credentials are stored by checking:
+2. Ingrese sus credenciales cuando se le solicite
+3. Verifique que las credenciales estén almacenadas revisando:
 ```bash
 cat ~/.git-credentials
 ```
 
-## Troubleshooting
+## Solución de Problemas
 
-### Common Issues and Solutions
+### Problemas Comunes y Soluciones
 
-1. **Installation Fails**
-   - Ensure all dependencies are installed
-   - Check system architecture compatibility
-   - Verify administrator privileges
+1. **Falla en la Instalación**
+   - Asegúrese de que todas las dependencias estén instaladas
+   - Verifique la compatibilidad de la arquitectura del sistema
+   - Verifique los privilegios de administrador
 
-2. **Credentials Not Saving**
-   - Confirm plain text storage is configured
-   - Check file permissions on ~/.git-credentials
-   - Ensure proper ownership of configuration files
+2. **Las Credenciales No Se Guardan**
+   - Confirme que el almacenamiento en texto plano esté configurado
+   - Verifique los permisos del archivo ~/.git-credentials
+   - Asegúrese de que los archivos de configuración tengan el propietario correcto
 
-3. **Authentication Errors**
-   - Verify credentials are correct
-   - Check network connectivity
-   - Ensure repository URL is correct
+3. **Errores de Autenticación**
+   - Verifique que las credenciales sean correctas
+   - Compruebe la conectividad de red
+   - Asegúrese de que la URL del repositorio sea correcta
 
-## Uninstallation
+## Desinstalación
 
-If needed, remove Git Credential Manager:
+Si es necesario, elimine Git Credential Manager:
 ```bash
 sudo dpkg -r gcm
 git config --global --unset credential.helper
@@ -89,13 +89,13 @@ git config --global --unset credential.credentialStore
 rm ~/.git-credentials
 ```
 
-## Support
+## Soporte
 
-For additional support:
-- Visit the [Git Credential Manager GitHub repository](https://github.com/GitCredentialManager/git-credential-manager)
-- Check Ubuntu documentation
-- Consult your system administrator
+Para soporte adicional:
+- Visite el [repositorio de GitHub de Git Credential Manager](https://github.com/GitCredentialManager/git-credential-manager)
+- Consulte la documentación de Ubuntu
+- Consulte con su administrador de sistemas
 
-## Security Notice
+## Aviso de Seguridad
 
-Please note that storing credentials in plain text is less secure than encrypted storage. Consider using this configuration only in controlled environments and never store sensitive credentials this way on shared or public systems.
+Tenga en cuenta que almacenar credenciales en texto plano es menos seguro que el almacenamiento cifrado. Considere usar esta configuración solo en entornos controlados y nunca almacene credenciales sensibles de esta manera en sistemas compartidos o públicos.
