@@ -20,14 +20,16 @@ sudo apt-get install -y curl libsecret-1-0 dotnet-runtime-6.0
 ### 2. Descargar Git Credential Manager
 Descargue la última versión de Git Credential Manager:
 ```bash
-curl -LO "https://github.com/GitCredentialManager/git-credential-manager/releases/latest/download/gcm-linux_amd64.deb"
+curl -LO "https://github.com/git-ecosystem/git-credential-manager/releases/{LATEST_VERSION}"
 ```
+> ⚠️NOTA : es necesario entrar a la sección releases del repositorio previamente señalado para obtención de la URL actual.
 
 ### 3. Instalar el Paquete
 Instale el paquete descargado:
 ```bash
-sudo dpkg -i gcm-linux_amd64.deb
+sudo dpkg -i {FILE_NAME}.deb
 ```
+> ⚠️NOTA : FILE_NAME será sustituido por el nombre del fichero .deb descargado.
 
 ### 4. Configurar Git para Usar Almacenamiento en Texto Plano
 Configure Git para usar almacenamiento en texto plano para las credenciales:
