@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>**Flujo de trabajo usando GitHub y tareas asignadas** - Niza System</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">Niza System</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link">Repositorio de Documentación</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CredentialManager <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../CredentialManager/WI/" class="dropdown-item">Guía de Instalación de Git Credential Manager</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Onboarding <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Onboarding/SOP/" class="dropdown-item">**Título del Procedimiento Operativo Estándar**</a>
+</li>
+                                    
+<li>
+    <a href="../../../Onboarding/WI/" class="dropdown-item">WI</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Guide</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">01 Welcome & Overview</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Onboarding/Guide/01-Welcome_%26_Overview/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">02 Tools & Access</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Onboarding/Guide/02-Tools_%26_Access/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">03 Tech Stack</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Onboarding/Guide/03-Tech_Stack/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">04 Workflow</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Onboarding/Guide/04-Workflow/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">05 Best Practices</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Onboarding/Guide/05-Best_Practices/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">06 Support & Help</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Onboarding/Guide/06-Support_%26_Help/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">07 Payment Process</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Onboarding/Guide/07-Payment_Process/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Team</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Onboarding/Team/WI/" class="dropdown-item">**Creación de usuarios y acceso**</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Version Control <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Branching</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active">**Flujo de trabajo usando GitHub y tareas asignadas**</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Review Pull Request</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Review%20Pull%20Request/SOP/" class="dropdown-item">SOP</a>
+</li>
+            
+<li>
+    <a href="../../Review%20Pull%20Request/WI/" class="dropdown-item">Guía de revisión de Pull Requests usando VSCode</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../../Onboarding/Team/WI/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../Review%20Pull%20Request/SOP/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#flujo-de-trabajo-usando-github-y-tareas-asignadas" class="nav-link">Flujo de trabajo usando GitHub y tareas asignadas</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#objetivo" class="nav-link">Objetivo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#puntos-claves-a-tener" class="nav-link">Puntos claves a tener</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#github" class="nav-link">GITHUB</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#github-flow" class="nav-link">GITHUB FLOW</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#conventional-commits" class="nav-link">Conventional Commits</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="flujo-de-trabajo-usando-github-y-tareas-asignadas"><strong>Flujo de trabajo usando GitHub y tareas asignadas</strong></h1>
+<h2 id="objetivo"><strong>Objetivo</strong></h2>
+<h5 id="1-tener-un-mejor-control-sobre-la-vida-del-software"><strong>1. Tener un mejor control sobre la vida del software.</strong></h5>
+<h5 id="2-crear-un-flujo-de-trabajo-organizado"><strong>2. Crear un flujo de trabajo organizado.</strong></h5>
+<h5 id="3-crear-un-documento-de-trabajo-organizado-para-nuevos-integrantes"><strong>3. Crear un documento de trabajo organizado para nuevos integrantes.</strong></h5>
+<h2 id="puntos-claves-a-tener"><strong>Puntos claves a tener</strong></h2>
+<h5 id="1-conocimiento-de-github-y-uso-de-git"><strong>1. Conocimiento de Github y uso de Git.</strong></h5>
+<h5 id="2-conocimiento-de-github-flow-opcional"><strong>2. Conocimiento de <a href="https://medium.com/@yanminthwin/understanding-github-flow-and-git-flow-957bc6e12220">GitHub Flow</a>.  ( opcional )</strong></h5>
+<h5 id="3-conventional-commits-opcional"><strong>3. <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional commits</a>. ( opcional ).</strong></h5>
+<h2 id="github"><strong>GITHUB</strong></h2>
+<p>GitHub es una plataforma en línea que funciona como un repositorio centralizado para almacenar y gestionar código fuente de programas y aplicaciones . Es la plataforma más importante del mundo para el desarrollo colaborativo de software y está diseñada específicamente para alojar proyectos utilizando el sistema de control de versiones Git.</p>
+<h2 id="github-flow"><strong>GITHUB FLOW</strong></h2>
+<p>GitHub Flow es un flujo de trabajo simplificado diseñado específicamente para el desarrollo y despliegue continuo de software . Este método está optimizado para equipos que necesitan publicar pequeñas actualizaciones frecuentemente, como es común en aplicaciones web modernas.</p>
+<h4 id="componentes-principales">Componentes Principales</h4>
+<h5 id="1-rama-principal-main"><strong>1. Rama Principal (main)</strong></h5>
+<ul>
+<li>Siempre refleja un estado completamente funcional y listo para producción</li>
+<li>Es la rama definitiva del proyecto</li>
+<li>Todo código en main debe estar probado y listo para usar</li>
+</ul>
+<h5 id="2-rama-de-desarrollo-dev"><strong>2. Rama de desarrollo (dev)</strong></h5>
+<ul>
+<li>Permite probar integraciones antes de llegar a producción</li>
+<li>Facilita la gestión de múltiples features simultáneos</li>
+<li>Reduce riesgos en main al tener un ambiente de prueba</li>
+</ul>
+<h5 id="3-rama-de-funcionalidades-features"><strong>3. Rama de funcionalidades (features)</strong></h5>
+<ul>
+<li>Se crean desde dev para nuevas características</li>
+<li>Son temporales y se eliminan después de mergear</li>
+<li>Permiten trabajar en características de forma independiente</li>
+</ul>
+<h2 id="conventional-commits"><strong>Conventional Commits</strong></h2>
+<p>Los Conventional Commits son un estándar para escribir mensajes de commit que sigue un formato específico y estructurado. Este formato ayuda a mantener un historial de cambios claro y consistente en el repositorio.</p>
+<h4 id="formato-base">Formato base</h4>
+<pre><code>tipo(scope): breve descripción
+[cuerpo opcional]
+</code></pre>
+<h4 id="tipos-principales">Tipos Principales</h4>
+<p><strong>1.    build:</strong> Cambios que tienen relación con el despliegue del proyecto
+<strong>2.    doc:</strong>   Cambios que tienen efecto en la documentación del proyecto
+<strong>3.    feat:</strong>  Nueva funcionalidad
+<strong>4.    fix:</strong>   Corregir error
+<strong>5.    test:</strong> Añadir o corregir un archivo de test
+<strong>6.    ref:</strong>  Cambio de código que no representa un fix o feat (cambio de nombre de una variable por ejemplo)
+<strong>7.    perf:</strong> Cambios mejoran el código existente
+<strong>8.    revert:</strong>    Cambios que representan revertir cambios realizados
+<strong>9.    conf:</strong>  Cambios en los archivos de configuración del proyecto (ejemplo: settings)</p>
+<h4 id="ejemplo-de-uso">Ejemplo de uso</h4>
+<pre><code>0.  # Nuevo feature
+1.  feat(auth): agregar autenticación con OAuth
+2.  
+3.  # Fix de bug
+4.  fix(api): corregir error en endpoint de usuarios
+5.  
+6.  # Documentación
+7.  docs(readme): actualizar instrucciones de instalación
+8.  
+9.  # Refactorización
+10. refactor(utils): mejorar manejo de errores en validaciones
+11. 
+12. # Tests
+13. test(auth): agregar pruebas unitarias para login
+14. 
+15. # Cambio menor
+16. chore: actualizar dependencias
+
+</code></pre>
+<p><img alt="ejmplo_de_commit" src="../img/image.png" /></p>
+<p>Para mantener un sistema coherente, necesitamos establecer convenciones claras para cada elemento:</p>
+<p><strong>1. Identificador de Tarea:</strong> </p>
+<p><strong>Formato:</strong> TIPO##customname (donde ## es un número secuencial y customname es un nombre identificativo asociado a la funcionalidad)</p>
+<p><strong>Formato:</strong>
+*   FEAT01 - Para nuevas funcionalidades
+*   FIX02 - Para correcciones de bugs
+*   DOCS03 - Para cambios en documentación</p>
+<p><strong>2. Nombre de rama:</strong>
+*   Debe coincidir exactamente con el ID de la tarea
+*   Ejemplo: Si la tarea es FEAT01  del ejemplo anteriror contiene la creacion de la funcionalidad de loguear usuario, la rama será FEAT01/login-authentication</p>
+<p><strong>3. Mensaje de commit:</strong>
+*  Debe seguir el formato Conventional Commits
+*   Tipo debe corresponder al prefijo de la tarea
+*   Descripción debe ser concisa y descriptiva</p>
+<h4 id="ejemplos-practicos">Ejemplos Prácticos</h4>
+<h5 id="1-nueva-funcionalidad">1. Nueva Funcionalidad</h5>
+<h6 id="tarea-feat01">Tarea: FEAT01</h6>
+<h6 id="descripcion-create-login-authentication">Descripción: Create login authentication</h6>
+<h6 id="rama-git-checkout-b-feat01login-authentication">Rama: git checkout -b FEAT01/login-authentication</h6>
+<h6 id="encabezado">Encabezado:</h6>
+<p>feat(account): create login authentication</p>
+<h6 id="cuerpo">Cuerpo:</h6>
+<ul>
+<li>Agregar funcionalidad de loguar usuario</li>
+<li>Implementar validaciones principales</li>
+</ul>
+<h5 id="2-correccion-de-bug">2.    Corrección de Bug</h5>
+<h6 id="tarea-fix02">Tarea: FIX02</h6>
+<h6 id="descripcion-corregir-la-validacion-del-atributo-ci-en-el-modelo-usuario">Descripción: Corregir la validación del atributo ci en el modelo usuario</h6>
+<h6 id="rama-git-checkout-b-fix02ci-validation">Rama: git checkout -b FIX02/ci-validation</h6>
+<h6 id="encabezado_1">Encabezado:</h6>
+<p>fix(account/model): ci validation in User Model </p>
+<h6 id="cuerpo_1">Cuerpo:</h6>
+<ul>
+<li>Corregir problema de validación del atributo ci</li>
+<li>Agregar validación de solo números y máximo 11 caracteres</li>
+</ul>
+<h3 id="ejemplo-de-un-flujo-de-ramas">Ejemplo de un flujo de ramas</h3>
+<p><img alt="ejmplo_de_ramas" src="../img/image2.png" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

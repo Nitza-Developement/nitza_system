@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Guía de Instalación de Git Credential Manager - Niza System</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Niza System</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Repositorio de Documentación</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CredentialManager <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Guía de Instalación de Git Credential Manager</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Onboarding <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Onboarding/SOP/" class="dropdown-item">**Título del Procedimiento Operativo Estándar**</a>
+</li>
+                                    
+<li>
+    <a href="../../Onboarding/WI/" class="dropdown-item">WI</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Guide</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">01 Welcome & Overview</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Onboarding/Guide/01-Welcome_%26_Overview/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">02 Tools & Access</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Onboarding/Guide/02-Tools_%26_Access/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">03 Tech Stack</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Onboarding/Guide/03-Tech_Stack/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">04 Workflow</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Onboarding/Guide/04-Workflow/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">05 Best Practices</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Onboarding/Guide/05-Best_Practices/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">06 Support & Help</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Onboarding/Guide/06-Support_%26_Help/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">07 Payment Process</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Onboarding/Guide/07-Payment_Process/WI/" class="dropdown-item">**Guía de Bienvenida - Desarrollo de Software**</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Team</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Onboarding/Team/WI/" class="dropdown-item">**Creación de usuarios y acceso**</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Version Control <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Branching</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Version%20Control/Branching/WI/" class="dropdown-item">**Flujo de trabajo usando GitHub y tareas asignadas**</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Review Pull Request</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Version%20Control/Review%20Pull%20Request/SOP/" class="dropdown-item">SOP</a>
+</li>
+            
+<li>
+    <a href="../../Version%20Control/Review%20Pull%20Request/WI/" class="dropdown-item">Guía de revisión de Pull Requests usando VSCode</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../.." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../Onboarding/SOP/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#guia-de-instalacion-de-git-credential-manager" class="nav-link">Guía de Instalación de Git Credential Manager</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#requisitos-previos" class="nav-link">Requisitos Previos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#pasos-de-instalacion" class="nav-link">Pasos de Instalación</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#pruebas-de-configuracion" class="nav-link">Pruebas de Configuración</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#solucion-de-problemas" class="nav-link">Solución de Problemas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#desinstalacion" class="nav-link">Desinstalación</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#soporte" class="nav-link">Soporte</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#aviso-de-seguridad" class="nav-link">Aviso de Seguridad</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="guia-de-instalacion-de-git-credential-manager">Guía de Instalación de Git Credential Manager</h1>
+<p><strong>Plataforma</strong>: Ubuntu
+<strong>Método de Almacenamiento</strong>: Texto Plano
+<strong>Última Actualización</strong>: 10 de febrero de 2025</p>
+<h2 id="requisitos-previos">Requisitos Previos</h2>
+<ul>
+<li>Ubuntu 20.04 o posterior</li>
+<li>Git instalado</li>
+<li>Privilegios de administrador</li>
+</ul>
+<h2 id="pasos-de-instalacion">Pasos de Instalación</h2>
+<h3 id="1-instalar-dependencias-requeridas">1. Instalar Dependencias Requeridas</h3>
+<p>Primero, asegúrese de que todas las dependencias requeridas estén instaladas:</p>
+<pre><code class="language-bash">sudo apt-get update
+sudo apt-get install -y curl libsecret-1-0 dotnet-runtime-6.0
+</code></pre>
+<h3 id="2-descargar-git-credential-manager">2. Descargar Git Credential Manager</h3>
+<p>Descargue la última versión de Git Credential Manager:</p>
+<pre><code class="language-bash">curl -LO &quot;https://github.com/GitCredentialManager/git-credential-manager/releases/latest/download/gcm-linux_amd64.deb&quot;
+</code></pre>
+<h3 id="3-instalar-el-paquete">3. Instalar el Paquete</h3>
+<p>Instale el paquete descargado:</p>
+<pre><code class="language-bash">sudo dpkg -i gcm-linux_amd64.deb
+</code></pre>
+<h3 id="4-configurar-git-para-usar-almacenamiento-en-texto-plano">4. Configurar Git para Usar Almacenamiento en Texto Plano</h3>
+<p>Configure Git para usar almacenamiento en texto plano para las credenciales:</p>
+<pre><code class="language-bash">git config --global credential.credentialStore plaintext
+</code></pre>
+<h3 id="5-configurar-git-credential-manager">5. Configurar Git Credential Manager</h3>
+<p>Inicialice Git Credential Manager:</p>
+<pre><code class="language-bash">git-credential-manager configure
+</code></pre>
+<h3 id="6-verificar-la-instalacion">6. Verificar la Instalación</h3>
+<p>Verifique que Git Credential Manager esté instalado correctamente:</p>
+<pre><code class="language-bash">git-credential-manager --version
+</code></pre>
+<h2 id="pruebas-de-configuracion">Pruebas de Configuración</h2>
+<ol>
+<li>Intente clonar un repositorio que requiera autenticación:</li>
+</ol>
+<pre><code class="language-bash">git clone https://github.com/username/repository.git
+</code></pre>
+<ol>
+<li>Ingrese sus credenciales cuando se le solicite</li>
+<li>Verifique que las credenciales estén almacenadas revisando:</li>
+</ol>
+<pre><code class="language-bash">cat ~/.git-credentials
+</code></pre>
+<h2 id="solucion-de-problemas">Solución de Problemas</h2>
+<h3 id="problemas-comunes-y-soluciones">Problemas Comunes y Soluciones</h3>
+<ol>
+<li><strong>Falla en la Instalación</strong></li>
+<li>Asegúrese de que todas las dependencias estén instaladas</li>
+<li>Verifique la compatibilidad de la arquitectura del sistema</li>
+<li>
+<p>Verifique los privilegios de administrador</p>
+</li>
+<li>
+<p><strong>Las Credenciales No Se Guardan</strong></p>
+</li>
+<li>Confirme que el almacenamiento en texto plano esté configurado</li>
+<li>Verifique los permisos del archivo ~/.git-credentials</li>
+<li>
+<p>Asegúrese de que los archivos de configuración tengan el propietario correcto</p>
+</li>
+<li>
+<p><strong>Errores de Autenticación</strong></p>
+</li>
+<li>Verifique que las credenciales sean correctas</li>
+<li>Compruebe la conectividad de red</li>
+<li>Asegúrese de que la URL del repositorio sea correcta</li>
+</ol>
+<h2 id="desinstalacion">Desinstalación</h2>
+<p>Si es necesario, elimine Git Credential Manager:</p>
+<pre><code class="language-bash">sudo dpkg -r gcm
+git config --global --unset credential.helper
+git config --global --unset credential.credentialStore
+rm ~/.git-credentials
+</code></pre>
+<h2 id="soporte">Soporte</h2>
+<p>Para soporte adicional:
+- Visite el <a href="https://github.com/GitCredentialManager/git-credential-manager">repositorio de GitHub de Git Credential Manager</a>
+- Consulte la documentación de Ubuntu
+- Consulte con su administrador de sistemas</p>
+<h2 id="aviso-de-seguridad">Aviso de Seguridad</h2>
+<p>Tenga en cuenta que almacenar credenciales en texto plano es menos seguro que el almacenamiento cifrado. Considere usar esta configuración solo en entornos controlados y nunca almacene credenciales sensibles de esta manera en sistemas compartidos o públicos.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
